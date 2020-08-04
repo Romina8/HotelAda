@@ -1,4 +1,4 @@
-package ar.com.ada.api.hetelada;
+package ar.com.ada.api.hotelada.services;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

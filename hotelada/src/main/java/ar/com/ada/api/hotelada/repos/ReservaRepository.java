@@ -1,4 +1,4 @@
-package ar.com.ada.api.hetelada.repos;
+package ar.com.ada.api.hotelada.repos;
 
 @Repository
 public interface ReservaRepository extends JpaRepository<Reserva, Interger>{

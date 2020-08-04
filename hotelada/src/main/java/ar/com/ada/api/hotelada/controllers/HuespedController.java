@@ -1,4 +1,4 @@
-package ar.com.ada.api.hetelada.controllers;
+package ar.com.ada.api.hotelada.controllers;
 
 @RestController
 public class HuespedController{

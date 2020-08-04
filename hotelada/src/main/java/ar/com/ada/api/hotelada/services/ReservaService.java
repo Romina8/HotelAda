@@ -1,4 +1,4 @@
-package ar.com.ada.api.hetelada.services;
+package ar.com.ada.api.hotelada.services;
 
 @Service
 public class  ReservaService{

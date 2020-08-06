@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ar.com.ada.api.hotelada.entities.Huesped;
+
+import ar.com.ada.api.hotelada.entities.reportes.Huesped;
 import ar.com.ada.api.hotelada.models.response.GenericResponse;
 import ar.com.ada.api.hotelada.services.HuespedService;
 

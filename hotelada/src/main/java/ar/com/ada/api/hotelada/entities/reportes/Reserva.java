@@ -1,4 +1,4 @@
-package ar.com.ada.api.hotelada.entities;
+package ar.com.ada.api.hotelada.entities.reportes;
 
 import java.math.BigDecimal;
 import java.util.Date;

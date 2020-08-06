@@ -1,6 +1,6 @@
 package ar.com.ada.api.hotelada.entities.exception;
 
-import ar.com.ada.api.hotelada.entities.Huesped;
+import ar.com.ada.api.hotelada.entities.reportes.Huesped;
 
 public class HuespedInfoException extends Exception {
 

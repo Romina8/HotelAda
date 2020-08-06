@@ -1,4 +1,4 @@
-package ar.com.ada.api.hotelada.entities;
+package ar.com.ada.api.hotelada.entities.reportes;
 
 import java.util.ArrayList;
 import java.util.List;

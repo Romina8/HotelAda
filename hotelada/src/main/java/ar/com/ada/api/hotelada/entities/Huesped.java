@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.*;
 import org.hibernate.annotations.NaturalId;
-import ar.com.ada.hoteltresvagos.excepciones.*;
+
+import ar.com.ada.api.hotelada.entities.exception.HuespedDNIException;
 
 @Entity
 @Table(name = "Huesped")
@@ -48,7 +49,7 @@ public class Huesped{
         this.nombre = nombre;
     }
 
-    public void setDni(int dni) throws HuespedDNIException {
+    public void setDni(int dni) throws HuespedDNIException{
 
         if (dni < 0) {
             // no se ejecuta nada mas despues del throw

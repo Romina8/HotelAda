@@ -109,15 +109,7 @@ public class Reserva{
 
     public void setHuesped(Huesped huesped) {
         this.huesped = huesped;
-        this.huesped.getReservas().add(this); //Hay relación biridireccional.
+        this.huesped.getReservas().add(this);
     }
-
-
-    //por ahora vamos a crear este con int
-    //Huesped la dejamos para después
-
-    //Tipos de datos: bando primitivo y bando de objeto.
-    //--bando primitivo: int.
-    //--bando de objeto: Integer. 
 
 }

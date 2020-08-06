@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import ar.com.ada.api.hotelada.entities.reportes.Huesped;
+import ar.com.ada.api.hotelada.entities.Huesped;
 
 @Repository
 public interface HuespedRepository extends JpaRepository<Huesped, Integer>{

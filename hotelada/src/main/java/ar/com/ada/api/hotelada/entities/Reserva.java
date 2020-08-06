@@ -1,4 +1,4 @@
-package ar.com.ada.api.hotelada.entities.reportes;
+package ar.com.ada.api.hotelada.entities;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -108,8 +108,7 @@ public class Reserva{
     }
 
     public void setHuesped(Huesped huesped) {
-        this.huesped = huesped;
-        this.huesped.getReservas().add(this);
-    }
-
+		this.huesped = huesped;
+	}
 }
+    

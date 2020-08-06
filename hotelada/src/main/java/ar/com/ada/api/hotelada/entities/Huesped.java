@@ -1,11 +1,11 @@
-package ar.com.ada.api.hotelada.entities.reportes;
+package ar.com.ada.api.hotelada.entities;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.*;
 import org.hibernate.annotations.NaturalId;
 
-import ar.com.ada.api.hotelada.entities.exception.HuespedDNIException;
+import ar.com.ada.api.hotelada.excepciones.HuespedDNIException;
 
 @Entity
 @Table(name = "Huesped")

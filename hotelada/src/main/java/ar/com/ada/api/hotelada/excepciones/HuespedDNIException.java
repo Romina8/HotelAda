@@ -1,7 +1,6 @@
-package ar.com.ada.api.hotelada.entities.exception;
+package ar.com.ada.api.hotelada.excepciones;
 
 import ar.com.ada.api.hotelada.entities.*;
-import ar.com.ada.api.hotelada.entities.reportes.Huesped;
 
 public class HuespedDNIException extends HuespedInfoException{
 
